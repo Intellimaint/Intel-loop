@@ -1,0 +1,112 @@
+/* Reset default styles */
+body, h1, h2, p, ul, li, form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #103540;
+  color: #E8B76B;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+h1, h2 {
+  color: #2F8F99;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #E8B76B;
+  text-decoration: none;
+}
+
+/* Header styles */
+header {
+  background-color: #2F8F99;
+  padding: 20px 0;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* Home section styles */
+.testimonials {
+  /* Styles for testimonials go here */
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #E8B76B;
+  color: #103540;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+/* Training section styles */
+.training-list {
+  /* Styles for training list go here */
+}
+
+.event-list {
+  /* Styles for event list go here */
+}
+
+/* Resources section styles */
+.resource-categories {
+  /* Styles for resource categories go here */
+}
+
+.resource-search {
+  /* Styles for resource search functionality go here */
+}
+
+/* About section styles */
+.client-partner-list {
+  /* Styles for client and partner list go here */
+}
+
+/* Contact section styles */
+form {
+  margin-top: 20px;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  background-color: #2F8F99;
+  color: #E8B76B;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+  background-color: #2F8F99;
+  padding: 10px 0;
+  text-align: center;
+}
