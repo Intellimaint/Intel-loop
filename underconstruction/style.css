@@ -1,0 +1,21 @@
+body {
+    background-color: #f0f0f0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.container img {
+    width: 50%; /* Adjust this value to suit your needs */
+}
+
+.message {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
